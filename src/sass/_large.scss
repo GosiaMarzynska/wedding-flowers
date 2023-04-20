@@ -1,0 +1,155 @@
+@media (min-width: 992px) {
+	.nav-container {
+		position: sticky;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: space-around;
+		background-color: $pure-white;
+		z-index: 50;
+
+		.nav-logo {
+			margin: 15px;
+			font-size: 4.2rem;
+		}
+
+		.burger-btn {
+			display: none;
+		}
+
+		.nav {
+			&-desktop {
+				display: flex;
+				font-size: 0;
+			}
+
+			&__item {
+				display: inline-flex;
+				align-items: center;
+				padding: 1em;
+				font-size: 2.3rem;
+				color: $dark;
+				height: 100%;
+				white-space: nowrap;
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: background-color 0.5s, color 0.3s;
+
+				&:hover {
+					background-color: $dark;
+					color: $pure-white;
+				}
+			}
+
+			&-mobile {
+				display: none;
+			}
+		}
+	}
+
+	.header {
+		@include heroImages("/dist/img/jungle-big.jpg");
+		background-attachment: scroll;
+
+		&__text {
+			margin-left: 22%;
+
+			&-label {
+				font-size: 1.6em;
+				margin: 0 auto;
+			}
+
+			&-heading {
+				font-size: 4.2rem;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.about-us {
+		position: relative;
+		padding-top: 0.1em;
+		.wrapper {
+			display: flex;
+			margin-bottom: 8em;
+			justify-content: space-between;
+		}
+
+		&__text {
+			margin: 1em;
+			min-width: 40%;
+			max-width: 60%;
+		}
+		&__img {
+			max-height: 450px;
+			max-width: 700px;
+			min-width: 500px;
+			margin: 2em;
+		}
+	}
+
+	.hero-img {
+		@include heroImages("/dist/img/girl-in-forest_big.jpg");
+
+		p {
+			font-size: 5.2rem;
+			margin: 2em 5em;
+			padding: 1em;
+		}
+	}
+
+	.offers {
+		padding-top: 0.1em;
+		&-text {
+			font-size: 3rem;
+		}
+		&__card {
+			width: 30%;
+		}
+	}
+
+	.footer {
+		&__box {
+			margin: 0 2em;
+			width: 25%;
+
+			&:first-child {
+				width: 50%;
+			}
+			&-logo {
+				font-size: 4rem;
+			}
+			&-text {
+				font-size: 1.6rem;
+			}
+
+			&-link {
+				font-size: 4.8rem;
+			}
+
+			&-title {
+				font-size: 2.4rem;
+				margin-bottom: 1em;
+			}
+
+			&-list {
+				list-style: none;
+
+				&-item {
+					margin-bottom: 1em;
+					font-size: 1.2em;
+
+					a {
+						transition: color 0.3s;
+						color: $gray2;
+						text-decoration: none;
+					}
+
+					a:hover {
+						color: $dark;
+					}
+				}
+			}
+		}
+	}
+}
