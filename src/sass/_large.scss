@@ -9,8 +9,11 @@
 		z-index: 50;
 
 		.nav-logo {
-			margin: 15px;
-			font-size: 4.2rem;
+            img {
+                height: 100px;
+                width: 100%;
+                padding: 0;
+            }
 		}
 
 		.burger-btn {
@@ -26,7 +29,7 @@
 			&__item {
 				display: inline-flex;
 				align-items: center;
-				padding: 1em;
+				padding: 0 1em;
 				font-size: 2.3rem;
 				color: $dark;
 				height: 100%;
@@ -48,7 +51,7 @@
 	}
 
 	.header {
-		@include heroImages("/dist/img/jungle-big.jpg");
+		@include heroImages("/dist/img/boho-big.jpg");
 		background-attachment: scroll;
 
 		&__text {
