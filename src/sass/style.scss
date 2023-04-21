@@ -454,6 +454,57 @@ body {
 	}
 }
 
+.proposals {
+	&__cards {
+		position: relative;
+		}
+
+		.second-card {
+			background-color: $light-gray;
+		}
+	
+	&__card {
+		display: table;
+		margin: 0 auto 4em auto;
+		font-size: 0;
+		margin-bottom: 3rem;
+		padding: 3rem 0;		
+		
+		&-title {
+			padding-bottom: 4rem;
+			font-size: 2.4rem;
+			text-align: center;
+		}
+
+		&-img {
+			text-align: center;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			
+			&-item {
+				min-width: 240px;
+				max-width: 100%;
+				max-width: 100%;
+				transition: transform 0.4s;
+
+				&:hover {
+					transform: scale(1.05);
+				}
+			}
+		}
+
+		&-text {
+			padding: 1.5rem;
+			font-size: 1.6rem;
+			padding-top: 3rem;
+			text-align: left;
+			line-height: 150%;
+		}
+	}
+}
+
+
 .map-section {
 	display: none;
 }

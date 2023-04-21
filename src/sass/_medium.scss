@@ -150,8 +150,8 @@
 		}
 	}
 
-	.adventure {
-		@include heroImages('/dist/img/road-big.jpg');
+	.proposals {
+		@include heroImages('/dist/img/carnation-big.jpg');
 		padding-bottom: 6rem;
 
 		.section-heading {
