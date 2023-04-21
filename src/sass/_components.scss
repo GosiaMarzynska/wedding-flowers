@@ -1,11 +1,10 @@
-@use "./colors" as *;
+@use './colors' as *;
 
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
 }
-
 
 .btn-special-animation {
 	position: relative;
@@ -15,7 +14,7 @@
 
 	&::before {
 		display: block;
-		content: "";
+		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -41,21 +40,19 @@
 	font-size: 3.2rem;
 	font-weight: 300;
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;
 	letter-spacing: 2px;
 }
 
 .section-padding {
-	padding: 6em 2em;
+	padding: 3em 2em 6em;
 }
 
 @media (min-width: 576px) {
-	.section-heading{
+	.section-heading {
 		font-size: 3.4rem;
 	}
 }
-
-
 
 @media (min-width: 768px) {
 	.section-heading {
@@ -68,8 +65,9 @@
 @media (min-width: 992px) {
 	.section-heading {
 		font-size: 4.8rem;
+		padding-top: 0;
 	}
 	.section-padding {
-		padding: 10em 2em;
+		padding: 4em 2em 10em;
 	}
 }
