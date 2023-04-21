@@ -9,16 +9,16 @@
 		z-index: 50;
 
 		.nav-logo {
-            margin: 0;
-		    font-size: 3.6rem;
-            img {
-                padding: 0;
-                padding-top: 5px;
-                height: 60px;
-                width: 260px;
-                max-width: none;
-             max-height: none;
-            }
+			margin: 0;
+			font-size: 3.6rem;
+			img {
+				padding: 0;
+				padding-top: 5px;
+				height: 60px;
+				width: 260px;
+				max-width: none;
+				max-height: none;
+			}
 		}
 
 		.burger-btn {
@@ -56,7 +56,7 @@
 	}
 
 	.header {
-		@include heroImages("/dist/img/boho-big.jpg");
+		@include heroImages('/dist/img/boho-big.jpg');
 		background-attachment: scroll;
 
 		&__text {
@@ -97,7 +97,7 @@
 	}
 
 	.hero-img {
-		@include heroImages("/dist/img/wedding-flowers-big.jpg");
+		@include heroImages('/dist/img/wedding-flowers-big.jpg');
 
 		p {
 			font-size: 5.2rem;
@@ -158,6 +158,19 @@
 					}
 				}
 			}
+		}
+	}
+
+	.contact {
+		&__form {
+			max-width: 900px;
+            margin: auto;
+		}
+	}
+
+	.proposals {
+		.section-heading {
+			padding-top: 2em;
 		}
 	}
 }

@@ -1,10 +1,9 @@
 @media (min-width: 768px) {
 	.nav-container {
-      
 		.nav-logo {
-			img {			
-             max-width: 60%;
-             max-height: 60%;		
+			img {
+				max-width: 60%;
+				max-height: 60%;
 			}
 		}
 	}
@@ -138,6 +137,15 @@
 				grid-column: 1/-1;
 				grid-row: 2/3;
 			}
+           
+            input,
+            textarea {
+                padding: 0.6em 1.2em;
+                margin-bottom: 2em;
+                width: 100%;
+                color: $dark;
+                font-size: 1.8rem;
+            }
 		}
 
 		&__form-btn {
@@ -163,7 +171,6 @@
 			width: 100%;
 			max-width: 1200px;
 			background-color: rgba(221, 221, 221, 0.864);
-
 			padding: 5rem;
 		}
 		&__card {

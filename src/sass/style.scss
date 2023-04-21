@@ -412,11 +412,11 @@ body {
 
 		input,
 		textarea {
-			padding: 1em 2em;
+			padding: 0.5em 1em;
 			margin-bottom: 2em;
 			width: 100%;
 			color: $dark;
-			
+			font-size: 1.6rem;
 			border: 1px solid rgba(255, 255, 255, 0.1);
 			
 			&:focus {
