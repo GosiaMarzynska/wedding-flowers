@@ -9,10 +9,15 @@
 		z-index: 50;
 
 		.nav-logo {
+            margin: 0;
+		    font-size: 3.6rem;
             img {
-                height: 100px;
-                width: 100%;
                 padding: 0;
+                padding-top: 5px;
+                height: 60px;
+                width: 260px;
+                max-width: none;
+             max-height: none;
             }
 		}
 

@@ -29,6 +29,8 @@ body {
 		img {
 			width: 80%;
 			padding: 15px;
+			max-height: 100px;
+			max-width: 355px;
 		}
 	}
 
@@ -159,6 +161,7 @@ body {
 	height: 50vh;
 	text-align: left;
 	color: $pure-white;
+	text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
 	font-weight: 300;
 	@include heroImages('/dist/img/boho-small.jpg');
 	background-attachment: scroll;
