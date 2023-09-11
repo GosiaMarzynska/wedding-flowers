@@ -5,6 +5,9 @@
 		left: 0;
 		display: flex;
 		justify-content: space-around;
+		-webkit-box-shadow: 0px 3px 5px 0px rgb(100, 100, 100);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(100, 100, 100);
+		box-shadow: 0px 3px 5px 0px rgb(100, 100, 100);
 		background-color: $pure-white;
 		z-index: 50;
 
@@ -58,7 +61,7 @@
 	.header {
 		@include heroImages('/dist/img/boho-big.jpg');
 		background-attachment: scroll;
-
+		height:50vh;
 		&__text {
 			margin-left: 22%;
 
@@ -164,7 +167,7 @@
 	.contact {
 		&__form {
 			max-width: 900px;
-            margin: auto;
+			margin: auto;
 		}
 	}
 
