@@ -3,10 +3,10 @@
 
 
 ## Try me
-#### [namaste-restaurant.netlify.app](namaste-restaurant.netlify.app)
+#### [https://wedding-flowers.netlify.app](https://wedding-flowers.netlify.app)
 
 ## About
-The website presents a floral studio that organizes packages for special events or simple orders. This langing page is a form of business advertising. The page is designed with accessibility in mind. It has both mobile and computer access.
+The website presents a floral studio that organizes offers for special events and simple orders. This landing page is a form of business advertising. The page is designed with accessibility in mind. It has both mobile and computer access.
 
 ## Features
 - Mobile accessbility
@@ -31,12 +31,12 @@ Wedding Flowers requires Gulp to run;
 ## Screens
 
 ### Mobile
- ![1.](docs/mobile-start.png)
- ![2.](docs/mobile-about.png)
- ![3.](docs/mobile-offers.png)
- ![4.](docs/mobile-offers2.png)
- ![5.](docs/mobile-contact.png)
- ![6.](docs/mobile-footer.png)
+<img src="docs/mobile-start.png" width="360" />
+<img src="docs/mobile-about.png" width="360" />
+<img src="docs/mobile-offers.png" width="360" />
+<img src="docs/mobile-offers2.png" width="360" />
+<img src="docs/mobile-contact.png" width="360" />
+<img src="docs/mobile-footer.png" width="360" />
 
 ### Desktop
 ![1.](docs/desktop-start.png)
